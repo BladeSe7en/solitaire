@@ -1,6 +1,7 @@
 import { ActionTypes, Places } from '../constants';
 import first from 'lodash/first';
 
+
 const Points = {
     [Places.DECK]: {
         [Places.PILE]: 5,

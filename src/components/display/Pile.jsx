@@ -3,6 +3,7 @@ import T from 'prop-types';
 import RankSymbol from './RankSymbol.jsx';
 import { Colors, Dimensions, CardsLayouts } from '../../constants';
 
+
 const Pile = ({ children, isOver, canDrop, color }) => {
     let top = -5;
 
@@ -41,3 +42,4 @@ Pile.propTypes = {
 }
 
 export default Pile;
+

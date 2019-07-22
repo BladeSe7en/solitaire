@@ -2,6 +2,7 @@ import React from 'react';
 import T from 'prop-types';
 import { Suits, Ranks } from '../../constants';
 
+
 const SuitAndRank = ({ suit, rank, position }) => {
     return (
         <div style={{

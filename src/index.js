@@ -13,6 +13,7 @@ import { createDevTools, persistState } from 'redux-devtools';
 import DockMonitor from 'redux-devtools-dock-monitor';
 import SliderMonitor from 'redux-slider-monitor';
 
+
 let cards = [];
 Object.keys(Suits).forEach(suit => {
     Ranks.forEach(rank => {

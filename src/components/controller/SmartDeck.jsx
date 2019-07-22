@@ -9,6 +9,7 @@ import DraggableCard from './DraggableCard.jsx';
 import last from 'lodash/last';
 import { Places } from '../../constants';
 
+
 class SmartDeck extends React.Component {
 
     static propTypes = {
@@ -54,3 +55,4 @@ class SmartDeck extends React.Component {
 }
 
 export default SmartDeck;
+

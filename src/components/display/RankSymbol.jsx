@@ -1,6 +1,7 @@
 import React from 'react';
 import T from 'prop-types';
 
+
 const RankSymbol = ({ symbol, style }) => {
     return (
         <div style={{
@@ -23,3 +24,4 @@ RankSymbol.propTypes = {
 };
 
 export default RankSymbol;
+

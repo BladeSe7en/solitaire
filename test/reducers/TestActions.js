@@ -1,4 +1,5 @@
 export default {
+    
     PILE_TO_FOUNDATION: {
         type: 'MOVE_CARD',
         payload: {

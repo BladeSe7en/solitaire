@@ -9,6 +9,7 @@ import flatten from 'lodash/flatten';
 import filter from 'lodash/filter';
 import omit from 'lodash/omit';
 
+
 const getNewState = state => action => reducer(state, action).game.toJS();
 const getNewGame = getNewState(initialState);
 

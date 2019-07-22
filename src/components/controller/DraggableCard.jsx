@@ -7,6 +7,7 @@ import ActionCreators from '../../actions';
 import { connect } from 'react-redux';
 import first from 'lodash/first';
 
+
 const cardSource = {
   beginDrag(props) {
     return {
@@ -108,3 +109,4 @@ export default class DraggableCard extends React.Component {
         ));
     }
 }
+

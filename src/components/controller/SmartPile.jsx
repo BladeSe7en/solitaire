@@ -8,6 +8,7 @@ import DraggableCard from './DraggableCard.jsx';
 import { DropTarget } from 'react-dnd';
 import last from 'lodash/last';
 
+
 const pileTarget = {
     drop(props, monitor, component) {
         component.moveCards(monitor.getItem());
@@ -78,3 +79,4 @@ class SmartPile extends React.Component {
 }
 
 export default SmartPile;
+

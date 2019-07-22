@@ -13,6 +13,7 @@ export const Colors = {
         borderColorUp: 'rgb(0, 64, 0)',
         borderColorDown: 'rgb(0, 64, 0)'
     },
+    
 
     Game: {
         backgroundColor: '#4CAF50'

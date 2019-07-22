@@ -2,6 +2,7 @@ import React from 'react';
 import { Suits, Colors } from '../../constants';
 import prefixer from 'react-prefixer';
 
+
 const Foundation = ({ children, suit, isOver, canDrop }) => {
     const color = isOver && canDrop && Colors[suit] || Colors.Game.backgroundColor;
     return (
@@ -39,3 +40,4 @@ const Foundation = ({ children, suit, isOver, canDrop }) => {
 };
 
 export default Foundation;
+

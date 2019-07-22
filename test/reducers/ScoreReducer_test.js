@@ -2,6 +2,7 @@ import expect from 'expect';
 import reducer from '../../src/reducers/ScoreReducer.js';
 import TestActions from './TestActions.js';
 
+
 describe('ScoreReducer', () => {
 describe('DECK to PILE', () => {
     it('should increase the score by 5 points', () => {

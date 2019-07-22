@@ -8,6 +8,7 @@ import ReactSymbol from './ReactSymbol.jsx';
 import { Shadows, Suits, Ranks, RanksValues, Colors, Dimensions, CardsLayouts } from '../../constants';
 import prefixer from 'react-prefixer';
 
+
 const Card =
 ({rank, suit, upturned, style, isOver, canDrop, isMouseOver, isDragging}) => {
     let suitSymbols;
@@ -65,3 +66,4 @@ Card.propTypes = {
 };
 
 export default Card;
+

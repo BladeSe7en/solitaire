@@ -9,6 +9,7 @@ import { connect } from 'react-redux';
 import ActionCreators from '../../actions';
 import { Colors, Dimensions } from '../../constants';
 
+
 @connect((state) => { return { game: state.game.toJS(), score: state.score } })
 @DragDropContext(HTML5Backend)
 class Game extends Component {
@@ -90,3 +91,4 @@ class Game extends Component {
 }
 
 export default Game;
+

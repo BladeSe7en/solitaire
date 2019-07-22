@@ -7,6 +7,7 @@ import first from 'lodash/first';
 import { Suits } from '../../constants';
 import { DropTarget } from 'react-dnd';
 
+
 const foundationTarget = {
     drop(props, monitor, component) {
         component.moveCards(monitor.getItem());
@@ -64,3 +65,4 @@ export default class SmartFoundation extends React.Component {
         );
     }
 }
+

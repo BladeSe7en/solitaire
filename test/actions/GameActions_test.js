@@ -8,6 +8,7 @@ describe('GameActions', () => {
         expect(actions.turnCard()).toEqual(expectedAction);
     });
 
+    
     it('should create an action to move cards', () => {
         const where = { from: 'FOO', to: 'BAR'};
         const cards = [];

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Dimensions } from '../../constants';
 
+
 const Overlay = ({ color }) => {
     return <div style={{
         backgroundColor: color,
@@ -14,3 +15,4 @@ const Overlay = ({ color }) => {
 }
 
 export default Overlay;
+
