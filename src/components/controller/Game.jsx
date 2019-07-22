@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import SmartDeck from './SmartDeck.jsx';
 import SmartPile from  './SmartPile.jsx';
 import SmartFoundation from './SmartFoundation.jsx';
@@ -11,7 +11,7 @@ import { Colors, Dimensions } from '../../constants';
 
 @connect((state) => { return { game: state.game.toJS(), score: state.score } })
 @DragDropContext(HTML5Backend)
-class Game extends React.Component {
+class Game extends Component {
 
     turnCard = () => {
         const { dispatch } = this.props;
@@ -29,15 +29,19 @@ class Game extends React.Component {
         console.log(score);
         return (
             <div style={{
+                marginLeft: '2%',
                 width: Dimensions.Game.width,
                 height: Dimensions.Game.height,
                 backgroundColor: Colors.Game.backgroundColor,
-                padding: 10
+                padding: 50
             }}>
-                <div style={{display: 'flex', justifyContent: 'space-between'}}>
+                <div style={{display: 'flex', 
+                justifyContent: 'space-between'
+                }}>
                     <SmartDeck deck={game.DECK} turnCard={turnCard} />
                     <div style={{
-                        width: 540,
+                        width: '50%',
+                        marginLeft: '5%',
                         display: 'flex',
                         justifyContent: 'space-between'
                     }}>

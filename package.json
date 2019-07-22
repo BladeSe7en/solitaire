@@ -1,5 +1,5 @@
 {
-  "name": "react-solitaire",
+  "name": "eye-ease-solitaire",
   "version": "1.0.0",
   "description": "Solitaire card game implemented in React",
   "main": "index.js",
@@ -16,7 +16,7 @@
     "solitaire",
     "game"
   ],
-  "author": "Edoardo Colombo <edo.gcolombo@gmail.com>",
+  "author": "",
   "license": "MIT",
   "dependencies": {
     "immutable": "^3.7.5",

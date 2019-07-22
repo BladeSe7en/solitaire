@@ -50,7 +50,9 @@ export default class SmartFoundation extends React.Component {
             /> :
             null;
         return connectDropTarget(
-            <div>
+            <div style={{
+                border: '3px solid rgb(0, 64, 0)'
+            }}>
                 <Foundation
                     {...this.props}
                     isOver={isOver}

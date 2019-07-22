@@ -8,10 +8,10 @@ export const Colors = {
     KO: 'red',
 
     Card: {
-        upturned: 'white',
-        downturned: '#1976D2',
-        borderColorUp: '#B6B6B6',
-        borderColorDown: '#1976D2'
+        upturned: 'rgb(0, 255, 0)',
+        downturned: 'rgb(0, 64, 0)',
+        borderColorUp: 'rgb(0, 64, 0)',
+        borderColorDown: 'rgb(0, 64, 0)'
     },
 
     Game: {
@@ -37,11 +37,12 @@ export const Dimensions = {
     Card: {
         width: 125,
         height: 175,
-        borderRadius: 2
+        border: '3px solid rgb(0, 64, 0)'
     },
 
     Game: {
-        width: 957,
+        width: '90%',
+        marginLeft: '5%',
         height: 500
     }
 }

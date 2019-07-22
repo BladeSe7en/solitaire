@@ -12,7 +12,7 @@ const ReactSymbol = ({ color }) => {
             left: 0,
             right: 0,
             textAlign: 'center',
-            color: color
+            color: 'rgb(0, 255, 0)'
         }}>
             ⚛
         </div>
