@@ -3,7 +3,6 @@ import { Colors, Dimensions } from '../../constants';
 import ReactSymbol from './ReactSymbol.jsx';
 import prefixer from 'react-prefixer';
 
-
 const UpturnedCard = ({ children }) => {
     return (
         <div style={ prefixer({

@@ -110,3 +110,62 @@ export default class DraggableCard extends React.Component {
     }
 }
 
+
+
+
+<div style="display:inline-block; color:white; width:100%;">
+    <a style="font: bold 11px Arial; 
+        text-decoration: none; 
+        padding: 2px 6px 2px 6px;
+        display: block; 
+        border: 1px solid #000; 
+        font-size: 20px;
+        background-color: rgb(0, 255, 0);
+        color: rgb(0, 64, 0);
+        width: 80%; height: 10%;
+        margin-left: 10%;
+        'onclick='openTheWebsite('https://youtu.be/WjOQAu5KhEs');
+        button type='button'">Video 1
+    </a>
+    <button style="font-size: 20px;
+        background-color: rgb(0, 255, 0);
+        color: rgb(0, 64, 0);
+        width: 80%;
+        height: 10%;
+        margin-left: 10%;">
+            Video 2
+    </button>
+    <button style="font-size: 20px;
+        background-color: rgb(0, 255, 0);
+        color: rgb(0, 64, 0);
+        width: 80%;
+        height: 10%;
+        margin-left: 10%;">
+            Video 3
+    </button>
+
+    <button style="font-size: 20px;
+        background-color: rgb(0, 255, 0);
+        color: rgb(0, 64, 0);
+        width: 80%;
+        height: 10%;
+        margin-left: 10%;">
+            Video 4
+    </button>
+    <button style="font-size: 20px;
+        background-color: rgb(0, 255, 0);
+        color: rgb(0, 64, 0);
+        width: 80%;
+        height: 10%;
+        margin-left: 10%;">
+            Video 5
+        </button>
+    <button style="font-size: 20px;
+        background-color: rgb(0, 255, 0);
+        color: rgb(0, 64, 0);
+        width: 80%;
+        height: 10%;
+        margin-left: 10%;">
+            Video 6
+        </button>
+</div>
