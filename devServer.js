@@ -18,12 +18,7 @@ app.get('/', function(req, res) {
 });
 app.use(express.static('assets'));
 
-app.listen(3000, 'localhost', function(err) {
-  if (err) {
-    console.log(err);
-    return;
-  }
+app.listen(process.env.PORT || 3000)
 
   console.log('Listening at http://localhost:3000');
-});
 
